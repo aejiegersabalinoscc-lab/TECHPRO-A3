@@ -19,7 +19,6 @@ public class ShoppingList {
                 break;
             }
         }
-        scanner.close();
 
         System.out.println("\nYour shopping list:");
         for (int i = 0; i < itemCount; i++) {
@@ -29,13 +28,9 @@ public class ShoppingList {
             }
         }
         System.out.println();
-
-        System.out.println("\nYou entered " + itemCount + " items");
-
+        System.out.println("\nYou entered " + itemCount + " items");        
         System.out.print("\nEnter an item to search for: ");
-        java.util.Scanner searchScanner = new java.util.Scanner(System.in); 
-        String searchItem = searchScanner.nextLine().toLowerCase();
-        searchScanner.close();
+        String searchItem = scanner.nextLine().toLowerCase(); 
         boolean found = false;
         for (int i = 0; i < itemCount; i++) {
             if (shoppingList[i].toLowerCase().equals(searchItem)) {
@@ -49,5 +44,7 @@ public class ShoppingList {
         } else {
             System.out.println(searchItem + " is not in your shopping list.");
         }
+
+        scanner.close(); 
     }
 }
