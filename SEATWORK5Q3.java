@@ -58,7 +58,7 @@ class CheckingAccount extends BankAccount {
     }
 }
 
-public class Main {
+public class SEATWORK5_SEM2 {
     public static void main(String[] args) {
         BankAccount mySavings = new SavingsAccount("SAV-9910", 1000.00);
         BankAccount myChecking = new CheckingAccount("CHK-4452", 500.00);
