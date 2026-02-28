@@ -5,7 +5,7 @@ public class SEATWORK9_TASK2 {
         Scanner scanner = new Scanner(System.in);
         double num1;
         double num2;
-        char operator;
+        char operator; 
         double result = 0;
         boolean validOperation = true;
 
