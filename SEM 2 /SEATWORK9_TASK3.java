@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class SEATWORK9_P3 {
+public class SEATWORK9_TASK3 {
 	public static void main(String[] args) {
 	
 	Random random = new Random();
