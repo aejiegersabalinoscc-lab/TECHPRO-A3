@@ -5,7 +5,7 @@
 		System.out.println("Worker name: " + name);
 	}
 }
-public class Seatwork6 {
+public class SEATWORK6 {
 
 public static void main(String[ ]args) {
   	
