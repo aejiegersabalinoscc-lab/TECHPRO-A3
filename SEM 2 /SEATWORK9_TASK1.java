@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SEATWORK9_TASK9 {
+public class SEATWORK9_TASK1 {
     public static void main(String[] args) { 
         Scanner scanner = new Scanner(System.in);
         double weight;
